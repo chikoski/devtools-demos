@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Prototype vs Uniquness</title>
+    <meta charset="utf-8">
+    <script src="app.js"></script>
+    <style>
+      body{
+        padding: 0; margin: 0;
+      }
+      canvas{
+        width: 100%;
+        heigth: 100%;
+      }
+      nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas width="800" height="600"></canvas>
+    <nav>
+      <button id="remove">Remove all</button>
+      <button id="prototype">Prototype</button>
+      <button id="unique">Unique</button>
+    </nav>
+    <script>
+      const canvas = document.querySelector("canvas");
+      const buttons = {
+        remove: document.querySelector("#remove"),
+        prototype: document.querySelector("#prototype"),
+        unique: document.querySelector("#unique")
+      };
+      const app = new App(canvas, buttons);
+    </script>
+  </body>
+</html>

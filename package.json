@@ -1,0 +1,24 @@
+{
+  "name": "devtools-demos",
+  "version": "1.0.0",
+  "description": "Apps for devtools' feature-demonstrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chikoski/devtools-demos.git"
+  },
+  "author": "N.Shimizu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chikoski/devtools-demos/issues"
+  },
+  "homepage": "https://github.com/chikoski/devtools-demos#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^3.2.2",
+    "gulp-sri": "^0.3.0"
+  }
+}
